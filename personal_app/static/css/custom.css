@@ -108,13 +108,22 @@ p {
 h2 i {
     padding-right: 5px;
 }
+h2 span {
+    padding-left: 5px;
+}
+.coursework-label {
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
 .page-section {
     margin-bottom: 35px;
 }
 .programming-images {
     padding-top: 15px;
 }
-.page-section img {
+.programming img,
+.technologies img,
+.tools img {
     width: 60px;
     padding: 5px;
 }
@@ -186,6 +195,7 @@ h2 i {
     font-size: 17px;
 }
 .skill-block {
+    font-size: 14px !important;
     border: 1px solid #ccc;
     height: 35px;
     padding-top: 5px;
@@ -197,6 +207,28 @@ h2 i {
     padding-top: 10px;
     margin-bottom: 15px;
 }
+.project {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.project-image {
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+.project-description {
+    width: 50%;
+    float: left;
+}
+.project-description p {
+    font-size: 15px;
+}
+.project-description h3 {
+    color: #3B5998;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 @media(max-width: 1000px) {
     .profile-panel {
         float: none;
@@ -205,6 +237,17 @@ h2 i {
         margin-bottom: 3%;
     }
     .main-panel {
+        float: none;
+        width: 100%;
+    }
+}
+@media(max-width: 600px) {
+    .project-image {
+        float: none;
+        width: 100%;
+    }
+    .project-description {
+        padding-top: 15px;
         float: none;
         width: 100%;
     }
