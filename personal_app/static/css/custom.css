@@ -145,7 +145,7 @@ h2 span {
 }
 .python-bar {
     background: #0090D9;
-    width: 72%;
+    width: 60%;
 }
 .java-label {
     width: 27%;
@@ -153,14 +153,14 @@ h2 span {
 }
 .java-bar {
     background: #0AA699;
-    width: 60%;
+    width: 63%;
 }
 .html5-label {
     width: 27%;
     background: #D0AC1B;
 }
 .html5-bar {
-    width: 40%;
+    width: 36%;
     background: #FDD01C;
 }
 .csharp-label {
@@ -168,7 +168,7 @@ h2 span {
     background: #BF702B;
 }
 .csharp-bar {
-    width: 25%;
+    width: 20%;
     background: #E88630;
 }
 .cpp-label {
@@ -250,5 +250,9 @@ h2 span {
         padding-top: 15px;
         float: none;
         width: 100%;
+    }
+    .language-bar {
+        padding-top: 8px;
+        font-size: 13px;
     }
 }
