@@ -214,7 +214,7 @@ h2 span {
 .project-image {
     float: left;
     margin-right: 20px;
-    width: 250px;
+    width: 225px;
 }
 .project-description {
     width: 50%;
@@ -241,7 +241,7 @@ h2 span {
         width: 100%;
     }
 }
-@media(max-width: 600px) {
+@media(max-width: 625px) {
     .project-image {
         float: none;
         width: 100%;
