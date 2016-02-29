@@ -18,81 +18,89 @@
         <link href="/static/css/custom.css" rel="stylesheet"/>
     </head>
     <body>
-        <div class="main-container">
-            <div class="profile-panel" align="center">
-                <img class="img-circle" width="150px" src="/static/img/me.png"></img>
-                <h1>Arya Mohades</h1>
-                <h2>Software Engineer</h2>
-                <h3><i class="fa fa-map-marker"></i>Austin, TX</h3>
-                <div class="contact-links">
-                    <h3><i class="fa fa-phone"></i>832-350-1119</h3>
-                    <h3><i class="fa fa-envelope-o"></i>am611@utexas.edu</h3>
-                </div>
-                <div class="social-profiles">
-                    <a href="https://www.facebook.com/arya.mohades" target='_blank'><i class="fa fa-facebook"></i></a>
-                    <a href="https://github.com/taapesh" target='_blank'><i class="fa fa-github"></i></a>
-                </div>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Side Panel -->
+        <div class="profile-panel" align="center">
+            <img class="img-circle" width="150px" src="/static/img/me.png"></img>
+            <h1>Arya Mohades</h1>
+            <h2>Software Engineer</h2>
+            <h3><i class="fa fa-map-marker"></i> Austin, TX</h3>
+            <h3><i class="fa fa-envelope-o"></i> am611@utexas.edu</h3>
+
+            <div class="sidebar-links">
+                <a href="/">Home</a><br>
+                <a href="blog">Blog</a><br>
+                <a href="about">About</a><br>
+                <a href="projects">Projects</a><br>
+                <a href="learn">Resources</a><br>
             </div>
 
-            <div class="main-panel">
+            <div class="social-profiles">
+                <a href="https://github.com/taapesh" target='_blank'><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <!-- End Side Panel -->
+
+        <!-- Main Panel -->
+        <div class="main-panel">
+            <div class="useful-links">
                 <div class="page-section">
-                    <div class="info-section">
-                        <a href="/" class="back-to-profile"><i class="fa fa-arrow-left"></i> Back to profile</a>
-                        <h2>Useful Links</h2>
-                        <div class="useful-links">
-                            <h3>Frameworks, Technologies, and Services</h3>
-                            <a href="https://www.djangoproject.com/" target='_blank'>Django Web Framework</a>
-                            <a href="http://www.django-rest-framework.org/" target='_blank'>Django Rest Framework</a>
-                            <a href="http://mean.io/" target='_blank'>MEAN Stack</a>
-                            <a href="https://nodejs.org/en/" target='_blank'>Node.js</a>
-                            <a href="https://www.heroku.com/" target='_blank'>Heroku</a>
-                            <a href="https://www.mongodb.org/" target='_blank'>MongoDB</a>
-                            <a href="https://mongolab.com/" target='_blank'>mongolab</a>
-                            <a href="http://getbootstrap.com/" target='_blank'>Bootstrap</a>
-                            <a href="http://robolectric.org/" target='_blank'>Roboelectric</a>
-                            
-                            <div class="clearfix"></div>
+                    <h3>Frameworks, Technologies, and Services</h3>
+                    <a href="https://www.djangoproject.com/" target='_blank'>Django Web Framework</a>
+                    <a href="http://www.django-rest-framework.org/" target='_blank'>Django Rest Framework</a>
+                    <a href="http://mean.io/" target='_blank'>MEAN Stack</a>
+                    <a href="https://nodejs.org/en/" target='_blank'>Node.js</a>
+                    <a href="https://www.heroku.com/" target='_blank'>Heroku</a>
+                    <a href="https://www.mongodb.org/" target='_blank'>MongoDB</a>
+                    <a href="https://mongolab.com/" target='_blank'>mongolab</a>
+                    <a href="http://getbootstrap.com/" target='_blank'>Bootstrap</a>
+                    <a href="http://robolectric.org/" target='_blank'>Roboelectric</a>
+                    <div class="clearfix"></div>
+                </div>
 
-                            <h3>Articles and Tutorials</h3>
-                            <a href="http://www.webforefront.com/django/configuredjangosettings.html" target='_blank'>Django settings.py for the real world</a>
-                            <a href="https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4" target='_blank'>Build a RESTful API Using Node and Express 4</a>
-                            <a href="https://www.mongodb.com/nosql-explained" target='_blank'>NoSQL Databases Explained</a>
-                            <a href="http://nodeschool.io/" target='_blank'>NodeSchool</a>
-                            <a href="https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens" target='_blank'>Authenticate a Node.js API with JSON Web Tokens</a>
-                            <a href="https://scotch.io/tutorials/an-introduction-to-mongodb" target='_blank'>An Introduction to MongoDB</a>
-                            <a href="http://staltz.com/djangoconfi-mongoengine/" target='_blank'>Using MongoDB as your primary Django database</a>
-                            <a href="https://devcenter.heroku.com/articles/s3-upload-python" target='_blank'>Direct to S3 File Uplods in Python</a>
-                            <a href="https://devcenter.heroku.com/articles/deploying-python" target='_blank'>Deploying Python and Django Apps on Heroku</a>
-                            <a href="https://www.expeditedssl.com/aws-in-plain-english" target='_blank'>Amazon Web Services in Plain English</a>
+                <div class="page-section">
+                    <h3>Libraries I use</h3>
+                    <a href="http://square.github.io/okhttp/" target='_blank'>OkHttp</a>
+                    <a href="http://square.github.io/picasso/" target='_blank'>Picasso</a>
+                    <a href="http://jakewharton.github.io/butterknife/" target='_blank'>Butter Knife</a>
+                    <a href="https://www.pubnub.com/" target='_blank'>PubNub</a>
+                    <a href="https://github.com/ottoyiu/django-cors-headers" target='_blank'>django-cors-headers</a>
+                    <div class="clearfix"></div>
+                </div>
 
-                            <div class="clearfix"></div>
+                <div class="page-section">
+                    <h3>Articles and Tutorials</h3>
+                    <a href="http://www.webforefront.com/django/configuredjangosettings.html" target='_blank'>Django settings.py for the real world</a>
+                    <a href="https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4" target='_blank'>Build a RESTful API Using Node and Express 4</a>
+                    <a href="https://www.mongodb.com/nosql-explained" target='_blank'>NoSQL Databases Explained</a>
+                    <a href="http://nodeschool.io/" target='_blank'>NodeSchool</a>
+                    <a href="https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens" target='_blank'>Authenticate a Node.js API with JSON Web Tokens</a>
+                    <a href="https://scotch.io/tutorials/an-introduction-to-mongodb" target='_blank'>An Introduction to MongoDB</a>
+                    <a href="http://staltz.com/djangoconfi-mongoengine/" target='_blank'>Using MongoDB as your primary Django database</a>
+                    <a href="https://devcenter.heroku.com/articles/s3-upload-python" target='_blank'>Direct to S3 File Uplods in Python</a>
+                    <a href="https://devcenter.heroku.com/articles/deploying-python" target='_blank'>Deploying Python and Django Apps on Heroku</a>
+                    <a href="https://www.expeditedssl.com/aws-in-plain-english" target='_blank'>Amazon Web Services in Plain English</a>
+                    <div class="clearfix"></div>
+                </div>
 
-                            <h3>Libraries and packages I use</h3>
-                            <a href="http://square.github.io/okhttp/" target='_blank'>OkHttp</a>
-                            <a href="http://square.github.io/picasso/" target='_blank'>Picasso</a>
-                            <a href="http://jakewharton.github.io/butterknife/" target='_blank'>Butter Knife</a>
-                            <a href="https://www.pubnub.com/" target='_blank'>PubNub</a>
-                            <a href="https://github.com/ottoyiu/django-cors-headers" target='_blank'>django-cors-headers</a>
-
-                            <div class="clearfix"></div>
-
-                            <h3>Resources and References</h3>
-                            <a href="https://design.google.com/icons/" target='_blank'>Google Material Icons</a>
-                            <a href="https://icons8.com/" target='_blank'>icons8 Android and iOS icons</a>
-                            <a href="https://github.com/wasabeef/awesome-android-ui" target='_blank'>List of Android UI/UX Libraries</a>
-                            <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target='_blank'>Markdown Cheatsheet</a>
-                            <a href="http://iconhandbook.co.uk/reference/chart/android/" target='_blank'>Android Icon Reference Chart</a>
-
-                            <div class="clearfix"></div>
-
-                        </div>
-                    </div>
+                <div class="page-section">
+                    <h3>Resources and References</h3>
+                    <a href="https://design.google.com/icons/" target='_blank'>Google Material Icons</a>
+                    <a href="https://icons8.com/" target='_blank'>icons8 Android and iOS icons</a>
+                    <a href="https://github.com/wasabeef/awesome-android-ui" target='_blank'>List of Android UI/UX Libraries</a>
+                    <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target='_blank'>Markdown Cheatsheet</a>
+                    <a href="http://iconhandbook.co.uk/reference/chart/android/" target='_blank'>Android Icon Reference Chart</a>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
+        <!-- End Main Panel -->
+    </div>
+    <!-- End Main Container -->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/static/js/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="/static/js/bootstrap.min.js"></script>
-    </body>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="/static/js/bootstrap.min.js"></script>
+</body>
 </html>
