@@ -217,6 +217,10 @@ h2 span {
     width: 50px;
 }
 
+.stack-images img {
+    width: 60px;
+}
+
 @media(max-width: 1000px) {
     .profile-panel {
         float: none;
