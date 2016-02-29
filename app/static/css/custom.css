@@ -105,6 +105,23 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.info-section h2 {
+    margin-top: 25px;
+}
+.info-section h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.info-section p {
+    margin-bottom: 20px;
+}
+.about-link {
+    font-size: 18px;
+}
+.back-to-profile {
+    font-size: 16px;
+}
+
 h2 i {
     padding-right: 5px;
 }
