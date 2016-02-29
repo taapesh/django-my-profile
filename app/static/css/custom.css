@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #404040;
 }
 
+h2 i, h3 i {
+    margin-right: 10px;
+}
+
 p {
     font-size: 16px;
     margin: 0;
@@ -115,90 +119,24 @@ a {
     margin-bottom: 25px;
 }
 
-.skill-btn {
-
-}
-.skill-btn:hover, .skill-btn:focus, .skill-btn:active {
-
-}
-
-
-
-.info-section {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.info-section h2 {
-    margin-top: 25px;
-}
-.info-section h3 {
-    font-size: 23px;
-    margin-bottom: 5px;
-}
-.info-section p {
-    margin-bottom: 20px;
-}
-.about-link {
-    font-size: 18px;
-}
-.learn-link {
-    font-size: 18px;
-}
-.back-to-profile {
-    font-size: 16px;
-}
-.useful-links {
-
-}
 .useful-links a {
     font-size: 18px;
     float:left;
     clear:left
 }
-.useful-links h3 {
-    
-}
-h2 i {
-    padding-right: 5px;
-}
-h2 span {
-    padding-left: 5px;
-}
-.coursework-label {
-    margin-top: 7px;
-    margin-bottom: 4px;
-}
 
-
-
-.programming-images {
-    padding-top: 15px;
-}
-.programming img,
-.technologies img,
-.tools img {
-    width: 60px;
-    padding: 5px;
-}
 .stack-images {
     padding-top: 10px;
     margin-bottom: 15px;
 }
+
 .project {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.project-image {
-    float: left;
-    margin-right: 20px;
-    width: 225px;
-}
-.project-description {
-    float: left;
-}
 
 .project-description p {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .project-description h3 {
@@ -218,7 +156,7 @@ h2 span {
 }
 
 .stack-images img {
-    width: 60px;
+    width: 50px;
 }
 
 @media(max-width: 1000px) {
@@ -228,18 +166,8 @@ h2 span {
         margin-right: 0;
         margin-bottom: 3%;
     }
+
     .main-panel {
-        float: none;
-        width: 100%;
-    }
-}
-@media(max-width: 625px) {
-    .project-image {
-        float: none;
-        width: 100%;
-    }
-    .project-description {
-        padding-top: 15px;
         float: none;
         width: 100%;
     }
