@@ -118,10 +118,23 @@ p {
 .about-link {
     font-size: 18px;
 }
+.learn-link {
+    font-size: 18px;
+}
 .back-to-profile {
     font-size: 16px;
 }
-
+.useful-links {
+    margin-top: 20px;
+}
+.useful-links a {
+    font-size: 18px;
+    float:left;
+    clear:left
+}
+.useful-links h3 {
+    margin-top: 20px;
+}
 h2 i {
     padding-right: 5px;
 }
